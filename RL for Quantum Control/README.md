@@ -5,7 +5,8 @@ Action Space:<br>
 
 State Space:<br>
 List of 8 amplitude probabilities representing distribution of outcomes for 3 qbits.<br>
-For example, the following distribution would be represented by:
-[0, 0.25, 0.25, 0, 0, 0.25, 0.25, 0]<br>
-![](images/example_state.PNG)
+The indexes represent the probability of getting outcomes 000, 001, 010, 011, 100, 101, 110, and 111 respectively.<br>
+For example, the following distribution would be represented by [0, 0, 0.514, 0, 0, 0, 0, 0.486]:<br>
+![](images/example_state.PNG)<br>
+
 
