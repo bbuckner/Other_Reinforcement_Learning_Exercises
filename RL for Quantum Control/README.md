@@ -27,6 +27,7 @@ The short gif below shows an agent making actions in the environment and arrivin
 * Tune hyperparameters furthur to see if it can learn in less episodes.
 * Modify architecture to include some recent RL innovations such as prioritized experience replay.
 * See if I can teach an agent to 'learn' an established quantum algorithm like Deutsch–Jozsa or Quantum Teleportation.
+* Tweak the reward structure to give a negative reward proportional to how far away a given state is from the goal state, this may help the agent learn faster.
 
 
 
