@@ -1,2 +1,1 @@
-The projects in this repo utilizes reinforcement learning (RL) algorithms to solve tasks in multiple domains.<br>
-Working with many tasks has given me a good sense of what hyperparameters are needed for varying levels of complexity.
+The files in this repo contain various reinforcement learning (RL) algorithms that I used to solve some classic RL tasks  These exercises served as my introduction to RL and follow the book 'Reinforcement Learning, An Introduction' by Sutton and Barto.  Having a thurough understanding of the basics helps when trying to understand why some of the more complicated RL algorithms like PPO and DDPG work.
