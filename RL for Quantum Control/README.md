@@ -17,7 +17,9 @@ See "Hyperparameters and Goal State Specification" section of RL-Quantum-State-P
 
 # Results:<br>
 The graph below represents the running average score of the past 25 episodes on each episode in the training.  The agent solves the environment optimally on episode 1405 where it obtains an average score of -3 over 25 episodes.  When I set the goal state of the environment it did indeed take me 3 gates (actions) in order to reach it, however I decided to let the agent train longer to see if it would discover an even more optimal circuit.<br>
-![](images/training_progress.png)
+![](images/training_progress.png)<br>
+The short gif below shows an agent making actions in the environment and arriving successfully at the desired state.
+![](images/test_episode.gif)
 
 # Future Research Ideas:<br>
 * Initialize the starting state of the environment randomly to see if the agent can learn to reach the desired state from any arbitrary starting point.  This would cause the agent to have more "knowlege" in its neural network and be able to make effective decisions in a wider range of situations.
